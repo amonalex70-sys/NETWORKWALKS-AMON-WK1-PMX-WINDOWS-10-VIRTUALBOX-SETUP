@@ -6,9 +6,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Cybersecurity%20Lab-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/VirtualBox-v7.2-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/VirtualBox-v7.2.20-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Windows%2010-Operating%20System-0078D6?style=flat-square&labelColor=000000&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.2-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Network-NAT%20Network-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/IPv4-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Focus-Network%20Configuration-C00000?style=flat-square&labelColor=000000" />
@@ -93,20 +93,18 @@ Creating a Windows 10 VM in VirtualBox, allocating hardware resources, configuri
 
 ```text
 Operating System:       Windows 10 (64-bit)
-Allocated RAM:          3572 MB
-CPU Cores:              2
+RAM:                    3572 MB
+CPU:                    2
 Video Memory:           128MB
-Virtual Hard Disk:      40 GB 
+Virtual Hard Disk:      50 GB 
 Disk Allocation:        Dynamically Allocated
-User Account:           Configured
-Password:               Set during Windows setup
 ```
 
 <img width="1366" height="741" alt="W10-VM" src="https://github.com/user-attachments/assets/c491943f-460d-4ed0-ae6c-a6303de280b3" />
 
 ## Step 3: Windows 10 Installation and Initial Configuration
 
-Starting the Windows 10 virtual machine and booting from the attached ISO file. Configuring the installation language, regional settings, and keyboard preferences. Accepting the license terms, selecting the virtual hard disk as the installation destination, and completing the Windows 10 installation.
+Installing Windows 10, configuring initial settings, accepting the license terms, selecting the virtual disk, and completing setup.
 
 **Installation Details:**
 
@@ -114,7 +112,7 @@ Starting the Windows 10 virtual machine and booting from the attached ISO file. 
 Operating System:       Windows 10
 Installation Media:     Windows 10 ISO
 Installation Method:    Custom Installation
-Installation Target:    40 GB Virtual Hard Disk
+Installation Target:    50 GB Virtual Hard Disk
 Virtualization Platform: Oracle VirtualBox 7.2
 ```
 
@@ -124,12 +122,13 @@ Accessing the Windows 10 virtual machine network settings in Oracle VirtualBox a
 
 **Network Adapter Configuration:**
 
-```text
-Adapter:       Adapter 1
-Attached to:   NAT Network
-Network:       NatNetwork
-Adapter Type:  Intel PRO/1000 MT Desktop
-```
+| **Setting** | **Configuration** |
+|---|---|
+| Adapter | Adapter 1 |
+| Attached To | NAT Network |
+| Network Name | NatNetwork |
+| Adapter Type | Intel PRO/1000 MT Desktop |
+
 
 
 ## Step 5: Configuring Windows 10 Network Settings
