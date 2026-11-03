@@ -72,27 +72,41 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 | ⚡ Processor | Intel Core i5 |
 | 🧰 Virtualization | VirtualBox 7.2.20 |
 | 🪟 Guest OS | Windows 10 |
-| 🧠 Windows RAM | 2048 MB |
+| 🧠 Windows RAM | 3572 MB |
 | 🐉 Existing VM | Kali Linux 2026.3 |
 | 🧠 Kali RAM | 2048 MB |
 | 🌐 Virtual Network | NAT Network |
 | 📡 Network Address | 10.0.0.0/24 |
-| 🐧 Kali IP Address | 10.0.0.2/24 |
 | 🪟 Windows IP Address | 10.0.0.10/24 |
 | 🚪 Default Gateway | 10.0.0.1 |
 | 🌍 DNS Server | 8.8.8.8 |
-| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+| 
 
 # ⚙️ Windows 10 Installation and Configuration Procedure
+
 ### Step 1: Downloading Windows 10 ISO
 
 Downloading the official Windows 10 ISO installation file from Microsoft. Selecting the appropriate system architecture (32-bit or 64-bit) based on the host computer's hardware compatibility and saving the ISO file for use during VirtualBox installation.
 
 **Source:** [Microsoft – Download Windows 10 ISO](https://www.microsoft.com/software-download/windows10ISO)
 
+
 ### Step 2: Creating and Configuring Windows 10 Virtual Machine
 
-Opening Oracle VirtualBox and creating a new virtual machine for Windows 10. Specifying the VM name, selecting Windows 10 as the operating system, and attaching the downloaded Windows 10 ISO installation file. Allocating the appropriate hardware resources, including RAM, CPU cores, and virtual disk storage, based on the host computer's available resources and Windows 10 system requirements.
+Creating a new Windows 10 virtual machine in Oracle VirtualBox, specifying the VM name, selecting the operating system, and configuring the required hardware resources. Allocating memory, processor resources, video memory, and virtual disk storage. Setting up a user account password for the Windows 10 installation.
+
+**Virtual Machine Specifications:**
+
+```text
+Operating System:       Windows 10 (64-bit)
+Allocated RAM:          3572 MB
+CPU Cores:              2
+Video Memory:           128MB
+Virtual Hard Disk:      40 GB 
+Disk Allocation:        Dynamically Allocated
+User Account:           Configured
+Password:               Set during Windows setup
+```
 
 ### Step 3: Installing Windows 10
 
@@ -104,3 +118,28 @@ Starting the virtual machine and booting from the attached Windows 10 ISO file. 
 ### Step 4: Configuring VirtualBox Network Adapter
 
 Accessing the Windows 10 virtual machine network settings in VirtualBox and configuring the network adapter to use the existing **NAT Network** shared with Kali Linux. Verifying the network configuration to enable communication between the two virtual machines and provide internet access.
+
+Since your current project focuses on Windows 10 installation, this section should describe configuring Windows 10 rather than Kali Linux.
+
+### Step 5: Configuring Windows 10 Network Settings
+
+Configuring the Windows 10 network adapter to use the existing NAT Network shared with Kali Linux. Assigning a static IPv4 address and the appropriate network parameters to establish communication between both virtual machines.
+
+Network Configuration:
+
+```
+IP Address:       10.0.0.10
+Subnet Mask:      255.255.255.0
+Default Gateway:  10.0.0.1
+Preferred DNS:    8.8.8.8
+```
+
+Network Details:
+
+- Network Type: VirtualBox NAT Network
+- Network Address: `10.0.0.0/24`
+- Kali Linux IP: `10.0.0.2`
+- Windows 10 IP: `10.0.0.10`
+
+Note: Ensure `10.0.0.10` is not assigned to another device or included in an active DHCP allocation.
+
