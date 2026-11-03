@@ -1,38 +1,31 @@
-<div align = "center">
+<div align="center">
 
-# 🖥️ Windows 10 virtualbox Installation and  Network Configuration
+# Windows 10 Installation and Network Configuration in VirtualBox
 
-<div align = "center"> 
-  
-**installation and network configuration in combination with Kali Linux via a shared NAT network.**
+**Installing and configuring Windows 10 in Oracle VirtualBox and integrating it with Kali Linux through a shared NAT Network.**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Ver-VirtualBox%20v7.2-0070C0?style=flat-square&labelColor=000000&logo=virtualbox&logoColor=white" />
-  <img src="https://img.shields.io/badge/OS-Windows%2010-0078D6?style=flat-square&labelColor=000000&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill-Windows%20Administration-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Virtualization-VirtualBox-404040?style=flat-square&labelColor=0070C0" />
-  <img src="https://img.shields.io/badge/Skill-Networking-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows%2010-404040?style=flat-square&labelColor=0078D6&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/NAT%20Network-238F89?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
-  
+  <img src="https://img.shields.io/badge/Project-Cybersecurity%20Lab-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/VirtualBox-v7.2-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Windows%2010-Operating%20System-0078D6?style=flat-square&labelColor=000000&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.2-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Network-NAT%20Network-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/IPv4-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Focus-Network%20Configuration-C00000?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Technology-Virtualization-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Platform-GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Practice-Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Program-NetworkWalks-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Mentor-Waqas%20Karim%20(CCIE)-C00000?style=flat-square" />
 </p>
 
 </div>
-</div>
 
+## 🖥️ Windows 10 Lab Overview
 
-## 📌 Project Overview
+This project focuses on installing and configuring **Windows 10 in Oracle VirtualBox** and integrating it with an existing **Kali Linux virtual machine** through a shared NAT Network.
 
-This project focuses on the installation, configuration, and integration of **Windows 10 as a virtual machine within Oracle VirtualBox** as part of a practical cybersecurity lab environment.
-
-The Windows 10 virtual machine is configured to operate on an existing **VirtualBox NAT Network**, shared with Kali Linux, to establish communication between the two operating systems. The project also involves configuring network settings, assigning a static IPv4 address, and performing connectivity tests to verify communication, gateway accessibility, and internet access.
-
-This setup provides a controlled virtual environment for exploring Windows and Linux networking, system administration, and practical cybersecurity activities.
+The setup involves configuring static IPv4 addressing, establishing communication between both virtual machines, and verifying network and DNS connectivity. It provides a controlled environment for practicing network administration and authorized cybersecurity activities.
 
 ## 🎯 Objectives
 
@@ -63,7 +56,7 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 
 ⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
-## ⚙️ Lab Configuration
+## ⚙️ Cybersecurity Lab Environment Specifications
 
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
@@ -109,7 +102,7 @@ Disk Allocation:        Dynamically Allocated
 User Account:           Configured
 Password:               Set during Windows setup
 ```
-
+---
 
 ### Step 3: Windows 10 Installation and Initial Configuration
 
