@@ -129,6 +129,9 @@ Accessing the Windows 10 virtual machine network settings in Oracle VirtualBox a
 | Network Name | NatNetwork |
 | Adapter Type | Intel PRO/1000 MT Desktop |
 
+<img width="1156" height="712" alt="Network adapter setting " src="https://github.com/user-attachments/assets/bdbf2d0f-ed07-4661-b5f7-6106679f5335" />
+
+
 
 
 ## Step 5: Configuring Windows 10 Network Settings
