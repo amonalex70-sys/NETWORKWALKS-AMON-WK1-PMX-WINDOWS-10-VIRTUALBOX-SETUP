@@ -179,4 +179,64 @@ Performing network tests to verify successful communication between the Windows 
 
 **Verification Result:** Successfully establishing network communication between Windows 10 and Kali Linux and confirming DNS resolution.
 
+# 💡 What I Learned
+
+Through this project, I gained practical experience in installing Windows 10 in Oracle VirtualBox and integrating it with an existing Kali Linux virtual machine.
+
+The key concepts I learned include:
+
+### 1. Virtual Machine Creation and Configuration
+
+I learned how to create a Windows 10 virtual machine, allocate hardware resources, configure virtual storage, and complete the operating system installation.
+
+### 2. VirtualBox NAT Network
+
+I learned how to configure a shared NAT Network, allowing Windows 10 and Kali Linux to communicate while supporting external network connectivity.
+
+### 3. Static IP Configuration
+
+I gained practical experience configuring and verifying IPv4 addresses, subnet masks, default gateways, and DNS settings.
+
+### 4. Network Connectivity Testing
+
+I learned how to use `ping`, `ipconfig`, and `nslookup` to verify IP configuration, communication between virtual machines, and DNS resolution.
+
+### 5. VM Snapshots
+
+I learned how to create a clean snapshot to preserve the configured Windows 10 environment for future restoration and cybersecurity exercises.
+
+### 6. Technical Documentation
+
+I improved my ability to document installation procedures, network configurations, verification results, and practical challenges.
+
+
+
+# 🔐 Security & Ethical Use
+
+This laboratory is intended strictly for educational purposes, authorized cybersecurity practice, and controlled network testing.
+
+---
+
+# 🔗 Tools & Resources
+
+- **Oracle VirtualBox:** [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- **Windows 10 ISO:** [Microsoft Windows 10 Download](https://www.microsoft.com/software-download/windows10ISO)
+- **Kali Linux:** [Download Kali Linux](https://www.kali.org/get-kali/)
+
+---
+
+
+# 👤 Author
+
+**Amon Alex**  
+Cybersecurity Student B084 | Electronics, Telecommunications & Cybersecurity
+
+
+**LinkedIn:** [Amon Alex](https://www.linkedin.com/in/amon-lowasa-60877a42a/)
+
+---
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity at NetworkWalks | **Week:** 01 | **Project:** Windows 10 Installation and Network Configuration | **Repository:** GitHub
 
