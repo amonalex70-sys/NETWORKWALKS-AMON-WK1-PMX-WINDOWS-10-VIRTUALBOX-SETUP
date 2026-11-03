@@ -70,11 +70,10 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 | 🖥️ Host OS | Kali Linux 2026.3 |
 | 🧠 Host RAM | 8 GB |
 | ⚡ Processor | Intel Core i5 |
-| 🧰 Hypervisor | VirtualBox 7.2 |
+| 🧰 Virtualization | VirtualBox 7.2.20 |
 | 🪟 Guest OS | Windows 10 |
-| 🧠 Windows RAM | 4096 MB |
-| 💾 Virtual Disk | 40 GB |
-| 🐉 Existing VM | Kali Linux 2026.2 |
+| 🧠 Windows RAM | 2048 MB |
+| 🐉 Existing VM | Kali Linux 2026.3 |
 | 🧠 Kali RAM | 2048 MB |
 | 🌐 Virtual Network | NAT Network |
 | 📡 Network Address | 10.0.0.0/24 |
@@ -83,3 +82,11 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 | 🚪 Default Gateway | 10.0.0.1 |
 | 🌍 DNS Server | 8.8.8.8 |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+
+# ⚙️ Windows 10 Installation and Configuration Procedure
+
+### Step 1: Download Windows 10 ISO
+
+- Download the official Windows 10 ISO from [Microsoft](https://www.microsoft.com/software-download/windows10ISO).
+- Select the 64-bit (x64) version.
+- Save the ISO file for use during VirtualBox installation.
