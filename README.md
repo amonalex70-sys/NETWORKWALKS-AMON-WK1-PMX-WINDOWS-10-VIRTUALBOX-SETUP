@@ -21,15 +21,15 @@
 
 </div>
 
-## 🖥️ Windows 10 Lab Overview
+## 🪟 Windows 10 Lab Overview
 
 This project focuses on installing and configuring **Windows 10 in Oracle VirtualBox** and integrating it with an existing **Kali Linux virtual machine** through a shared NAT Network.
 
 The setup involves configuring static IPv4 addressing, establishing communication between both virtual machines, and verifying network and DNS connectivity. It provides a controlled environment for practicing network administration and authorized cybersecurity activities.
 
-## 🎯 Objectives
+## 🎯 Lab Configuration Objectives
 
-The main objectives of this project are to:
+The main objectives of this lab  are to:
 
 - Install and configure Windows 10 as a virtual machine in VirtualBox.
 - Connect Windows 10 to the existing **NAT Network** used by Kali Linux.
@@ -40,7 +40,7 @@ The main objectives of this project are to:
 - Document the installation, network configuration, and testing procedures.
 - Prepare the virtual environment for future networking and cybersecurity projects.
 
-## 🛡️ Purpose of the Lab
+## 🔬 Lab Purpose and Virtualization Scope
 
 The purpose of this lab is to establish an isolated and controlled virtual environment for cybersecurity learning, network administration, and authorized security testing.
 
@@ -56,18 +56,18 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 
 ⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
-## ⚙️ Cybersecurity Lab Environment Specifications
+## ⚙️ Virtualization Lab Environment Specifications
 
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
 | 🖥️ Host OS | Kali Linux 2026.3 |
 | 🧠 Host RAM | 8 GB |
 | ⚡ Processor | Intel Core i5 |
-| 🧰 Virtualization | VirtualBox 7.2.20 |
-| 🪟 Guest OS | Windows 10 |
-| 🧠 Windows RAM | 3572 MB |
+| 🧰 Virtualizaton Platform | VirtualBox 7.2.20 |
 | 🐉 Existing VM | Kali Linux 2026.3 |
 | 🧠 Kali RAM | 2048 MB |
+| 🪟 Guest OS | Windows 10 |
+| 🧠 Windows RAM | 3572 MB |
 | 🌐 Virtual Network | NAT Network |
 | 📡 Network Address | 10.0.0.0/24 |
 | 🪟 Windows IP Address | 10.0.0.10/24 |
@@ -75,7 +75,7 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 | 🌍 DNS Server | 8.8.8.8 |
 
 
-# ⚙️ Windows 10 Installation and Configuration Procedures
+## ⚙️ Windows 10 installation and network configuration steps 
 
 
 ### Step 1: Downloading Windows 10 ISO
@@ -88,7 +88,7 @@ Downloading the official Windows 10 ISO installation file from Microsoft. Select
 
 ### Step 2: Import and Configure Windows 10 Virtual Machine
 
-Creating a new Windows 10 virtual machine in Oracle VirtualBox, specifying the VM name, selecting the operating system, and configuring the required hardware resources. Allocating memory, processor resources, video memory, and virtual disk storage. Setting up a user account password for the Windows 10 installation.
+Creating a Windows 10 VM in VirtualBox, allocating hardware resources, configuring virtual storage, and setting up a user account.
 
 **Virtual Machine Specifications:**
 
@@ -157,6 +157,16 @@ Note: Ensure `10.0.0.10` is not assigned to another device or included in an act
 
 ---
 
+### Step 6: Creating a Clean Windows 10 Snapshot
+
+Creating a clean snapshot of the configured Windows 10 virtual machine in Oracle VirtualBox to preserve its current state for future restoration and cybersecurity lab activities.
+
+**Snapshot Details:**
+
+```text
+Snapshot Name: Clean W10 - Network Setup
+Status:       Successfully Created
+```
 ### step 7: 🔎 Network Connectivity Verification
 
 Performing network tests to verify successful communication between the Windows 10 and Kali Linux virtual machines, gateway accessibility, internet connectivity, and DNS resolution.
@@ -171,16 +181,5 @@ Performing network tests to verify successful communication between the Windows 
 | 🔄 Verify snapshot | Restore snapshot | Baseline configuration restored |
 
 **Verification Result:** Successfully establishing network communication between Windows 10 and Kali Linux and confirming DNS resolution.
-
-### Step 6: Creating a Clean Windows 10 Snapshot
-
-Creating a clean snapshot of the configured Windows 10 virtual machine in Oracle VirtualBox to preserve its current state for future restoration and cybersecurity lab activities.
-
-**Snapshot Details:**
-
-```text
-Snapshot Name: Clean W10 - Network Setup
-Status:       Successfully Created
-```
 
 
