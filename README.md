@@ -90,10 +90,17 @@ Downloading the official Windows 10 ISO installation file from Microsoft. Select
 
 **Source:** [Microsoft – Download Windows 10 ISO](https://www.microsoft.com/software-download/windows10ISO)
 
-### Step 2: Creating a Windows 10 Virtual Machine
+### Step 2: Creating and Configuring Windows 10 Virtual Machine
 
-Opening Oracle VirtualBox and creating a new virtual machine. Entering the VM name, selecting Windows 10 as the operating system, and configuring the initial virtual machine settings in preparation for installation.
+Opening Oracle VirtualBox and creating a new virtual machine for Windows 10. Specifying the VM name, selecting Windows 10 as the operating system, and attaching the downloaded Windows 10 ISO installation file. Allocating the appropriate hardware resources, including RAM, CPU cores, and virtual disk storage, based on the host computer's available resources and Windows 10 system requirements.
 
-### Step 3: Configuring Virtual Machine Hardware Resources
+### Step 3: Installing Windows 10
 
-Allocating the appropriate hardware resources to the Windows 10 virtual machine, including RAM, CPU cores, and virtual disk storage, based on the host computer's available resources and Windows 10 system requirements.
+Starting the virtual machine and booting from the attached Windows 10 ISO file. Following the Windows Setup instructions, selecting the installation language, time and keyboard preferences, and proceeding with the installation. Selecting the appropriate installation partition and completing the Windows 10 installation process.
+
+<img width="1088" height="790" alt="image" src="https://github.com/user-attachments/assets/304a2916-269c-4765-b5b4-a5a2ae71d454" />
+
+
+### Step 4: Configuring VirtualBox Network Adapter
+
+Accessing the Windows 10 virtual machine network settings in VirtualBox and configuring the network adapter to use the existing **NAT Network** shared with Kali Linux. Verifying the network configuration to enable communication between the two virtual machines and provide internet access.
