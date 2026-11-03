@@ -84,9 +84,16 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
 # ⚙️ Windows 10 Installation and Configuration Procedure
+### Step 1: Downloading Windows 10 ISO
 
-### Step 1: Download Windows 10 ISO
+Downloading the official Windows 10 ISO installation file from Microsoft. Selecting the appropriate system architecture (32-bit or 64-bit) based on the host computer's hardware compatibility and saving the ISO file for use during VirtualBox installation.
 
-- Download the official Windows 10 ISO from [Microsoft](https://www.microsoft.com/software-download/windows10ISO).
-- Select the 64-bit (x64) version.
-- Save the ISO file for use during VirtualBox installation.
+**Source:** [Microsoft – Download Windows 10 ISO](https://www.microsoft.com/software-download/windows10ISO)
+
+### Step 2: Creating a Windows 10 Virtual Machine
+
+Opening Oracle VirtualBox and creating a new virtual machine. Entering the VM name, selecting Windows 10 as the operating system, and configuring the initial virtual machine settings in preparation for installation.
+
+### Step 3: Configuring Virtual Machine Hardware Resources
+
+Allocating the appropriate hardware resources to the Windows 10 virtual machine, including RAM, CPU cores, and virtual disk storage, based on the host computer's available resources and Windows 10 system requirements.
