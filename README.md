@@ -77,8 +77,7 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 
 ## ⚙️ Windows 10 installation and network configuration steps 
 
-
-### Step 1: Downloading Windows 10 ISO
+## Step 1: Downloading Windows 10 ISO
 
 Downloading the official Windows 10 ISO installation file from Microsoft. Selecting the appropriate system architecture (32-bit or 64-bit) based on the host computer's hardware compatibility and saving the ISO file for use during VirtualBox installation.
 
@@ -86,7 +85,7 @@ Downloading the official Windows 10 ISO installation file from Microsoft. Select
 
 
 
-### Step 2: Import and Configure Windows 10 Virtual Machine
+## Step 2: Import and Configure Windows 10 Virtual Machine
 
 Creating a Windows 10 VM in VirtualBox, allocating hardware resources, configuring virtual storage, and setting up a user account.
 
@@ -102,9 +101,10 @@ Disk Allocation:        Dynamically Allocated
 User Account:           Configured
 Password:               Set during Windows setup
 ```
----
 
-### Step 3: Windows 10 Installation and Initial Configuration
+<img width="1366" height="741" alt="W10-VM" src="https://github.com/user-attachments/assets/c491943f-460d-4ed0-ae6c-a6303de280b3" />
+
+## Step 3: Windows 10 Installation and Initial Configuration
 
 Starting the Windows 10 virtual machine and booting from the attached ISO file. Configuring the installation language, regional settings, and keyboard preferences. Accepting the license terms, selecting the virtual hard disk as the installation destination, and completing the Windows 10 installation.
 
@@ -118,8 +118,7 @@ Installation Target:    40 GB Virtual Hard Disk
 Virtualization Platform: Oracle VirtualBox 7.2
 ```
 
-
-### Step 4: Configuring the VirtualBox Network Adapter
+## Step 4: Configuring the VirtualBox Network Adapter
 
 Accessing the Windows 10 virtual machine network settings in Oracle VirtualBox and configuring Adapter 1 to connect to the existing **NAT Network (NatNetwork)** shared with Kali Linux. Verifying the adapter configuration to establish communication between both virtual machines and provide internet connectivity.
 
@@ -133,7 +132,7 @@ Adapter Type:  Intel PRO/1000 MT Desktop
 ```
 
 
-### Step 5: Configuring Windows 10 Network Settings
+## Step 5: Configuring Windows 10 Network Settings
 
 Configuring the Windows 10 network adapter with a static IPv4 address and the required network parameters to establish communication with Kali Linux over the shared NAT Network.
 
@@ -155,9 +154,7 @@ Network Details:
 
 Note: Ensure `10.0.0.10` is not assigned to another device or included in an active DHCP allocation.
 
----
-
-### Step 6: Creating a Clean Windows 10 Snapshot
+## Step 6: Creating a Clean Windows 10 Snapshot
 
 Creating a clean snapshot of the configured Windows 10 virtual machine in Oracle VirtualBox to preserve its current state for future restoration and cybersecurity lab activities.
 
@@ -167,7 +164,8 @@ Creating a clean snapshot of the configured Windows 10 virtual machine in Oracle
 Snapshot Name: Clean W10 - Network Setup
 Status:       Successfully Created
 ```
-### step 7: 🔎 Network Connectivity Verification
+
+## step 7: 🔎 Network Connectivity Verification
 
 Performing network tests to verify successful communication between the Windows 10 and Kali Linux virtual machines, gateway accessibility, internet connectivity, and DNS resolution.
 
