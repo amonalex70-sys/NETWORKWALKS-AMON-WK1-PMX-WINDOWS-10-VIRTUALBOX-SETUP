@@ -156,7 +156,8 @@ Network Details:
 
 Note: Ensure `10.0.0.10` is not assigned to another device or included in an active DHCP allocation.
 
-<img width="1027" height="746" alt="ip-configuration" src="https://github.com/user-attachments/assets/aec86a64-6b94-44de-84ed-738edddf3e27" />
+<img width="850" height="734" alt="IP-Config" src="https://github.com/user-attachments/assets/9641eeed-83ec-4fe1-9897-bef8070a642c" />
+
 
 ## Step 6: Creating a Clean Windows 10 Snapshot
 
@@ -169,7 +170,7 @@ Snapshot Name: Clean W10 - Network Setup
 Status:       Successfully Created
 ```
 
-🔎 Network Connectivity Verification
+## 🔎 Network Connectivity Verification
 
 Performing network tests to verify successful communication between the Windows 10 and Kali Linux virtual machines, gateway accessibility, internet connectivity, and DNS resolution.
 
