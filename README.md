@@ -169,7 +169,7 @@ Snapshot Name: Clean W10 - Network Setup
 Status:       Successfully Created
 ```
 
-## step 7: 🔎 Network Connectivity Verification
+🔎 Network Connectivity Verification
 
 Performing network tests to verify successful communication between the Windows 10 and Kali Linux virtual machines, gateway accessibility, internet connectivity, and DNS resolution.
 
@@ -183,6 +183,27 @@ Performing network tests to verify successful communication between the Windows 
 | 🔄 Verify snapshot | Restore snapshot | Baseline configuration restored |
 
 **Verification Result:** Successfully establishing network communication between Windows 10 and Kali Linux and confirming DNS resolution.
+
+## 🐞 Problems Encountered & Solutions
+
+### 🐞 Problem 1: Windows 10 Display Resolution Issue
+
+After installing Windows 10 in VirtualBox, the display resolution was limited to **1280 × 780**, and automatic screen resizing was not working.
+
+**Solution:**
+- Accessing Windows 10 Display Settings.
+- Manually changing the display resolution to a lower supported resolution.
+- Applying the changes to improve screen visibility within the virtual machine.
+
+**Result:** Successfully adjusting the display resolution manually.
+
+**Solution:**
+
+- Accessing Windows 10 Display Settings.
+- Manually changing the screen resolution from **1280 × 780** to a lower supported resolution.
+- Applying the changes and adjusting the display to fit the virtual machine window.
+
+**Verification:** Confirming that the display settings were successfully adjusted and Windows 10 was properly visible within the VirtualBox window.
 
 # 💡 What I Learned
 
