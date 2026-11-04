@@ -156,6 +156,8 @@ Network Details:
 
 Note: Ensure `10.0.0.10` is not assigned to another device or included in an active DHCP allocation.
 
+<img width="1027" height="746" alt="ip-configuration" src="https://github.com/user-attachments/assets/aec86a64-6b94-44de-84ed-738edddf3e27" />
+
 ## Step 6: Creating a Clean Windows 10 Snapshot
 
 Creating a clean snapshot of the configured Windows 10 virtual machine in Oracle VirtualBox to preserve its current state for future restoration and cybersecurity lab activities.
