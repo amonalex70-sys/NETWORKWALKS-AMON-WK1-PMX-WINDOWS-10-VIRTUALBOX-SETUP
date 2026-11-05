@@ -196,7 +196,6 @@ After installing Windows 10 in VirtualBox, the display resolution was limited to
 - Manually changing the display resolution to a lower supported resolution.
 - Applying the changes to improve screen visibility within the virtual machine.
 
-**Result:** Successfully adjusting the display resolution manually.
 
 **Solution:**
 
@@ -204,7 +203,6 @@ After installing Windows 10 in VirtualBox, the display resolution was limited to
 - Manually changing the screen resolution from **1280 × 780** to a lower supported resolution.
 - Applying the changes and adjusting the display to fit the virtual machine window.
 
-**Verification:** Confirming that the display settings were successfully adjusted and Windows 10 was properly visible within the VirtualBox window.
 
 # 💡 What I Learned
 
