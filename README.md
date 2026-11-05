@@ -27,7 +27,7 @@ This project focuses on installing and configuring **Windows 10 in Oracle Virtua
 
 The setup involves configuring static IPv4 addressing, establishing communication between both virtual machines, and verifying network and DNS connectivity. It provides a controlled environment for practicing network administration and authorized cybersecurity activities.
 
-## 🎯 Lab configuration pbjectives
+## 🎯 Lab configuration objectives
 
 The main objectives of this lab  are to:
 
