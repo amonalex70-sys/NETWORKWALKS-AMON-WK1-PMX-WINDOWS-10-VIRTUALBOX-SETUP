@@ -132,8 +132,6 @@ Accessing the Windows 10 virtual machine network settings in Oracle VirtualBox a
 <img width="1156" height="712" alt="Network adapter setting " src="https://github.com/user-attachments/assets/bdbf2d0f-ed07-4661-b5f7-6106679f5335" />
 
 
-
-
 ## Step 5: Configuring Windows 10 Network Settings
 
 Configuring the Windows 10 network adapter with a static IPv4 address and the required network parameters to establish communication with Kali Linux over the shared NAT Network.
@@ -183,7 +181,6 @@ Performing network tests to verify successful communication between the Windows 
 | 🔎 Verify DNS resolution | `nslookup networkwalks.com` | Successful domain name resolution |
 | 🔄 Verify snapshot | Restore snapshot | Baseline configuration restored |
 
-**Verification Result:** Successfully establishing network communication between Windows 10 and Kali Linux and confirming DNS resolution.
 
 ## 🐞 Problems Encountered & Solutions
 
