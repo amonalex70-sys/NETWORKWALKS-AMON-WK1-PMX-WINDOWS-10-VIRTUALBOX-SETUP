@@ -21,13 +21,13 @@
 
 </div>
 
-## 🪟 Windows 10 Lab Overview
+## 🪟 Windows 10 lab overview
 
 This project focuses on installing and configuring **Windows 10 in Oracle VirtualBox** and integrating it with an existing **Kali Linux virtual machine** through a shared NAT Network.
 
 The setup involves configuring static IPv4 addressing, establishing communication between both virtual machines, and verifying network and DNS connectivity. It provides a controlled environment for practicing network administration and authorized cybersecurity activities.
 
-## 🎯 Lab Configuration Objectives
+## 🎯 Lab configuration Objectives
 
 The main objectives of this lab  are to:
 
