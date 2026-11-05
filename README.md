@@ -40,7 +40,7 @@ The main objectives of this lab  are to:
 - Document the installation, network configuration, and testing procedures.
 - Prepare the virtual environment for future networking and cybersecurity projects.
 
-## 🔬 Lab Purpose and Virtualization Scope
+## 🔬 Lab purpose and virtualization scope
 
 The purpose of this lab is to establish an isolated and controlled virtual environment for cybersecurity learning, network administration, and authorized security testing.
 
@@ -56,7 +56,7 @@ By integrating Windows 10 with Kali Linux through a shared NAT Network, the lab 
 
 ⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
-## ⚙️ Virtualization Lab Environment Specifications
+## ⚙️ Virtualization lab environment specifications
 
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
